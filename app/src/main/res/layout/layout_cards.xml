@@ -16,8 +16,9 @@
         android:layout_height="200dp"
         android:clickable="true"
         android:focusable="true"
-        app:cardBackgroundColor="#6D0808"
-        app:cardCornerRadius="5dp">
+        app:cardBackgroundColor="#2EA8CE"
+        app:cardCornerRadius="28dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -28,57 +29,62 @@
             android:layout_width="150dp"
             android:layout_height="180dp"
             android:scaleType="centerInside"
-            android:src="@drawable/happy" />
+            android:src="@drawable/sonic" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"></LinearLayout>
+
+
+
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
         <TextView
+          android:layout_marginTop="29dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Happy"
-            android:textColor="#FFD444"
+            android:text="Sonic Borges"
+            android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
 
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/baseline_menu"/>
+             </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="Tiltle: Fast " />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="It might seem crazy what I am 'bout to say
-Sunshine, she's here you can take a break" />
+            android:layout_marginTop="33dp"
+            android:text="2321"
+          "/>
+</LinearLayout>
 
-        <RatingBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:numStars="4" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="8.5"
-            android:textSize="20sp"/>
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Enviar"
-            app:cornerRadius="1dp"
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/baseline_favorite"/>
-            <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/baseline_favorite"/>
 
             </LinearLayout>
         </LinearLayout>
-
 
     </androidx.cardview.widget.CardView>
 
@@ -87,4 +93,6 @@ Sunshine, she's here you can take a break" />
 
 
 
+
+    </LinearLayout>
     </LinearLayout>
